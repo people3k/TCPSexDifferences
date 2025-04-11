@@ -7,7 +7,7 @@
 Files: 
 
 
-(i) File path: data/TexasHGIsotopesMaleFemale.csv 
+(i) File path: Data/TexasHGIsotopesMaleFemale.csv 
 
 This file contains information on the stable isotopes of individuals buried in Central Texas and on the Texas Coastal Plain. The files is essential to reproduce the
 analysis presented in the main manuscript, including Figures 3, 4, 5, and 6.  
@@ -31,7 +31,7 @@ Setting--Central Texas =CTx, Coastal Plain=TCP
 Setting2--Id of inland, riverine and coastal ecosystems
 
 
-(ii) File path: data/TCPPerCap.csv 
+(ii) File path: Data/TCPPerCap.csv 
 
 This files contains the time-series of the per capita growth rates of all simulated KDEs, the mean KDE, and per capita growth rate of the mean KDE. The file is essential to reproduce Figures 4 and 6 in the main manuscript and Figures 2 and 3 in the Supporting Material. This file is for those who do not want to reproduce the full analysis of archaeological radiocarbon based on the raw data discussed below.
 
@@ -42,7 +42,7 @@ v1-v200: The per capita growth rate of each KDE in 30 year intervals
 MKDE--The mean value of the 200 KDEs at each 30 year time-step
 PerCap--The per capita growth rate of the mean KDE
 
-(iii) File path: data/FinalRCDTexas3.csv 
+(iii) File path: Data/FinalRCDTexas3.csv 
 
 This file contains all radiocarbon ages associated with archaeological remains collected from Central Texas and the Texas Coastal Plain. This file is essential to reproduce 
 TCPPerCap.csv and, ultimately, Figures 4 and 6 in the main manuscript and Figures 2 and 3 in the Supporting Material. These data are provided for researchers interested in reproducing the KDEs used in the study and engaging in their own analysis.
