@@ -1,0 +1,12 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: Freeman
+  given-names: Jacob
+authors:
+- family-names: Ahmann
+  given-names: Alyssa
+title:people3k/TCPSexDifferences: Hunter-gatherer Sex Differences in Precontact Texas
+version: TXDifV3
+date-released: 2025-04-11
+                               
