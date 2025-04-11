@@ -1,5 +1,7 @@
 ####Analysis script for ``The effects of resources and population expansion on
-#female-male protein consumption among hunter-gatherers#
+#female-male protein consumption among hunter-gatherers# Under Review in the Journal of Archaeological Science
+
+
 ###Set working directory
 
 ###Load packages
@@ -101,6 +103,8 @@ Medi1 <- d3i%>% group_by(sex) %>%
   summarize(med = median(delta15n))
 Medi1
 
+#Create violin plot for terrestrial (inland) ecosystems and save for plotting Below
+
 pn2 <- ggplot(d3i, aes(factor(sex), (delta15n), fill=sex))+
   geom_violin()+
   #stat_summary(fun=median, geom="point", size=4, color="black")+
@@ -151,7 +155,7 @@ Medc1 <- d3c%>% group_by(sex) %>%
   summarize(med = median(delta15n))
 Medc1
 
-##Create violin plot
+#Create violin plot for terrestrial (coastal) ecosystems and save for plotting Below
 pn3 <- ggplot(d3c, aes(factor(sex), (delta15n), fill=sex))+
   geom_violin()+
   stat_boxplot(geom ='errorbar')+
